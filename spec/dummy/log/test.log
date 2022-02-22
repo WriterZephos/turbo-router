@@ -1,0 +1,219 @@
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+----------------------------------------
+ControllerTest: test_has_page_layout_set
+----------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+----------------------------------------
+ControllerTest: test_has_page_layout_set
+----------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+----------------------------------------
+ControllerTest: test_has_page_layout_set
+----------------------------------------
+----------------------------------------
+ControllerTest: test_has_page_layout_set
+----------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+----------------------------------------
+ControllerTest: test_has_page_layout_set
+----------------------------------------
+--------------------------------------------------------------
+ControllerTest: test_page_layout_is_rails_default_when_not_set
+--------------------------------------------------------------
+----------------------------------------------------------------------------------
+ControllerTest: test_page_layout_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+--------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_is_set_to_something_custom_when_set_in_controller
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------
+ControllerTest: test_page_layout_is_rails_default_when_not_set
+--------------------------------------------------------------
+------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_is_rails_default_when_not_set
+------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+ControllerTest: test_page_layout_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+--------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_is_set_to_something_custom_when_set_in_controller
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------
+ControllerTest: test_page_layout_is_rails_default_when_not_set
+--------------------------------------------------------------
+------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_is_rails_default_when_not_set
+------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+ControllerTest: test_page_layout_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-16 16:33:58 -0700
+Processing by DefaultTestController#show as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 2303)
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-16 16:44:19 -0700
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-16 17:04:33 -0700
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-16 17:04:57 -0700
+Processing by DefaultTestController#show as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 2303)
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-21 17:05:39 -0700
+Processing by DefaultTestController#show as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 2303)
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+---------------------------------------------
+TurboRouterTest: test_it_has_a_version_number
+---------------------------------------------
+----------------------------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_set_to_something_custom_when_set_in_controller
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_rails_default_when_not_set
+----------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+ControllerTest: test_turbo_router_handles_standard_requests_by_rendering_default_template
+-----------------------------------------------------------------------------------------
+Started GET "/show" for 127.0.0.1 at 2022-02-21 17:09:07 -0700
+Processing by DefaultTestController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/show.html.erb within layouts/application
+  Rendered default_test/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 575)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 2435)
+--------------------------------------------------------------------------------------
+ControllerTest: test_default_redirect_path_on_controller_is_rails_default_when_not_set
+--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+ControllerTest: test_page_layout_on_controller_is_set_to_something_custom_when_set_in_controller
+------------------------------------------------------------------------------------------------

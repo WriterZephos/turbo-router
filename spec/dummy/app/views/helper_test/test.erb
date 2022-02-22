@@ -1,0 +1,11 @@
+<%= turbo_router_link_to("Test Link", "/some_path", { class: "some css class" }) %>
+<br>
+<%= turbo_router_link_to("/some_path", { class: "some css class" }) { "some more html" } %>
+<br>
+<%= turbo_router_route_to("Test Link", "/some_path", { class: "some css class" }) %>
+<br>
+<%= turbo_router_route_to("/some_path", { class: "some css class" }) { "some more html" } %>
+<br>
+<%= turbo_router_frame_tag(src: "some_source", target: "some_target", class: "some css class" ) %>
+<br>
+<%= turbo_router_frame_tag(src: "some_source", target: "some_target", class: "some css class" ) { "some more html" } %>
