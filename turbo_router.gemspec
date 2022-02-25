@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.email       = ["bryantreadmorrill@gmail.com"]
   spec.summary = "TurboRouter - turbo_frames and turbo_streams made easy."
   spec.description = "TurboRouter makes it easier to use turbo_frames by dynamically wrapping responses with turbo_frames and providing view helpers to generate links with predictable and straightforward behavior."
-  spec.homepage = "https://github.com/hotwired/turbo-rails"
+  spec.homepage = "https://github.com/WriterZephos/turbo-router"
   spec.license = "MIT"
 
   # spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/hotwired/turbo-rails"
-  spec.metadata["changelog_uri"] = "https://github.com/hotwired/turbo-rails"
+  spec.metadata["source_code_uri"] = "https://github.com/WriterZephos/turbo-router"
+  spec.metadata["changelog_uri"] = "https://github.com/WriterZephos/turbo-router"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
