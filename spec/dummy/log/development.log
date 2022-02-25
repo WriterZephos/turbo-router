@@ -6582,3 +6582,328 @@ Processing by HelperTestController#test as HTML
 Completed 200 OK in 2ms (Views: 2.3ms | Allocations: 829)
 
 
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering custom_test/test.erb within layouts/turbo_router_content
+  Rendered custom_test/test.erb within layouts/turbo_router_content (Duration: 1.6ms | Allocations: 227)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.8ms | Allocations: 186)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 4.1ms | Allocations: 668)
+Completed 200 OK in 16ms (Views: 7.7ms | Allocations: 3074)
+
+
+Processing by CustomTestController#test_alt as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test_alt.erb within layouts/custom_page_layout
+  Rendered custom_test/test_alt.erb within layouts/custom_page_layout (Duration: 0.6ms | Allocations: 77)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 1.6ms | Allocations: 203)
+Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 1031)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test.erb within layouts/custom_page_layout
+  Rendered custom_test/test.erb within layouts/custom_page_layout (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.2ms | Allocations: 58)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 277)
+
+
+Processing by CustomTestController#turbo_stream_test_with_id as TURBO_STREAM
+  Rendering custom_test/test.erb
+  Rendered custom_test/test.erb (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 636)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.6ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 61)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 541)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 1519)
+
+
+Processing by DefaultTestController#test_overridden as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1607)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 240)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 410)
+
+
+Processing by HelperTestController#test as HTML
+  Rendering helper_test/test.erb
+  Rendered helper_test/test.erb (Duration: 3.4ms | Allocations: 503)
+Completed 200 OK in 4ms (Views: 4.3ms | Allocations: 830)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering custom_test/test.erb within layouts/turbo_router_content
+  Rendered custom_test/test.erb within layouts/turbo_router_content (Duration: 1.2ms | Allocations: 227)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.8ms | Allocations: 186)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 3.0ms | Allocations: 668)
+Completed 200 OK in 10ms (Views: 6.3ms | Allocations: 3073)
+
+
+Processing by CustomTestController#test_alt as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test_alt.erb within layouts/custom_page_layout
+  Rendered custom_test/test_alt.erb within layouts/custom_page_layout (Duration: 0.6ms | Allocations: 78)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 1.4ms | Allocations: 204)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 1035)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test.erb within layouts/custom_page_layout
+  Rendered custom_test/test.erb within layouts/custom_page_layout (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.2ms | Allocations: 58)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 277)
+
+
+Processing by CustomTestController#turbo_stream_test_with_id as TURBO_STREAM
+  Rendering custom_test/test.erb
+  Rendered custom_test/test.erb (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 636)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering default_test/test.erb within layouts/turbo_router_content
+  Rendered default_test/test.erb within layouts/turbo_router_content (Duration: 0.6ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 1.0ms | Allocations: 226)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 1146)
+
+
+Processing by DefaultTestController#test_alt as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 615)
+
+
+Processing by DefaultTestController#test_overridden as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1603)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 468)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 694)
+
+
+Processing by HelperTestController#test as HTML
+  Rendering helper_test/test.erb
+  Rendered helper_test/test.erb (Duration: 1.2ms | Allocations: 502)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 829)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering custom_test/test.erb within layouts/turbo_router_content
+  Rendered custom_test/test.erb within layouts/turbo_router_content (Duration: 0.7ms | Allocations: 227)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 1.9ms | Allocations: 668)
+Completed 200 OK in 12ms (Views: 4.7ms | Allocations: 3075)
+
+
+Processing by CustomTestController#test_alt as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test_alt.erb within layouts/custom_page_layout
+  Rendered custom_test/test_alt.erb within layouts/custom_page_layout (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.6ms | Allocations: 203)
+Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 1031)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test.erb within layouts/custom_page_layout
+  Rendered custom_test/test.erb within layouts/custom_page_layout (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.2ms | Allocations: 58)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 277)
+
+
+Processing by CustomTestController#turbo_stream_test_with_id as TURBO_STREAM
+  Rendering custom_test/test.erb
+  Rendered custom_test/test.erb (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 636)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering default_test/test.erb within layouts/turbo_router_content
+  Rendered default_test/test.erb within layouts/turbo_router_content (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 0.6ms | Allocations: 225)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1145)
+
+
+Processing by DefaultTestController#test_alt as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 616)
+
+
+Processing by DefaultTestController#test_overridden as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1602)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 468)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 694)
+
+
+Processing by HelperTestController#test as HTML
+  Rendering helper_test/test.erb
+  Rendered helper_test/test.erb (Duration: 0.9ms | Allocations: 502)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 829)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering custom_test/test.erb within layouts/turbo_router_content
+  Rendered custom_test/test.erb within layouts/turbo_router_content (Duration: 0.7ms | Allocations: 227)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 1.8ms | Allocations: 668)
+Completed 200 OK in 7ms (Views: 4.3ms | Allocations: 3074)
+
+
+Processing by CustomTestController#test_alt as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test_alt.erb within layouts/custom_page_layout
+  Rendered custom_test/test_alt.erb within layouts/custom_page_layout (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.6ms | Allocations: 203)
+Completed 200 OK in 2ms (Views: 1.1ms | Allocations: 1031)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test.erb within layouts/custom_page_layout
+  Rendered custom_test/test.erb within layouts/custom_page_layout (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.2ms | Allocations: 58)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 277)
+
+
+Processing by CustomTestController#turbo_stream_test_with_id as TURBO_STREAM
+  Rendering custom_test/test.erb
+  Rendered custom_test/test.erb (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 636)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering default_test/test.erb within layouts/turbo_router_content
+  Rendered default_test/test.erb within layouts/turbo_router_content (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 0.6ms | Allocations: 225)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1193)
+
+
+Processing by DefaultTestController#test_alt as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test_alt.erb within layouts/application
+  Rendered default_test/test_alt.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 538)
+Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1364)
+
+
+Processing by DefaultTestController#test_overridden as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1655)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 240)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 410)
+
+
+Processing by HelperTestController#test as HTML
+  Rendering helper_test/test.erb
+  Rendered helper_test/test.erb (Duration: 0.8ms | Allocations: 503)
+Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 830)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering custom_test/test.erb within layouts/turbo_router_content
+  Rendered custom_test/test.erb within layouts/turbo_router_content (Duration: 0.8ms | Allocations: 227)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 2.0ms | Allocations: 668)
+Completed 200 OK in 12ms (Views: 4.8ms | Allocations: 3075)
+
+
+Processing by CustomTestController#test_alt as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test_alt.erb within layouts/custom_page_layout
+  Rendered custom_test/test_alt.erb within layouts/custom_page_layout (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.6ms | Allocations: 203)
+Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 1031)
+
+
+Processing by CustomTestController#test as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering custom_test/test.erb within layouts/custom_page_layout
+  Rendered custom_test/test.erb within layouts/custom_page_layout (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.2ms | Allocations: 58)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 277)
+
+
+Processing by CustomTestController#turbo_stream_test_with_id as TURBO_STREAM
+  Rendering custom_test/test.erb
+  Rendered custom_test/test.erb (Duration: 0.0ms | Allocations: 10)
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 636)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/turbo_router_content.erb
+  Rendering default_test/test.erb within layouts/turbo_router_content
+  Rendered default_test/test.erb within layouts/turbo_router_content (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/turbo_router_content.erb (Duration: 0.6ms | Allocations: 225)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1193)
+
+
+Processing by DefaultTestController#test_alt as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test_alt.erb within layouts/application
+  Rendered default_test/test_alt.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 538)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 1364)
+
+
+Processing by DefaultTestController#test_overridden as HTML
+  Rendering layout layouts/custom_page_layout.erb
+  Rendering default_test/test_overridden.erb within layouts/custom_page_layout
+  Rendered default_test/test_overridden.erb within layouts/custom_page_layout (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/custom_page_layout.erb (Duration: 0.4ms | Allocations: 125)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 674)
+
+
+Processing by DefaultTestController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering default_test/test.erb within layouts/application
+  Rendered default_test/test.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_turbo_router_content.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 245)
+Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 416)
+
+
+Processing by HelperTestController#test as HTML
+  Rendering helper_test/test.erb
+  Rendered helper_test/test.erb (Duration: 0.9ms | Allocations: 502)
+Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 829)
+
+
