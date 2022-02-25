@@ -3,9 +3,13 @@
 class CustomTestController < ApplicationController
   include TurboRouter::Controller
 
+  use_dynamic_layout :test
+
   page_layout "custom_page_layout"
 
   def test; end
+
+  def test_alt; end
 
   def turbo_stream_test
     respond_to do |format|

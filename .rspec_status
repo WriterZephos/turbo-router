@@ -1,10 +1,11 @@
-example_id                                                               | status | run_time        |
------------------------------------------------------------------------- | ------ | --------------- |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:1:1]    | passed | 0.00267 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:1]  | passed | 0.03576 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:2:1]  | passed | 0.00453 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:3:1]    | passed | 0.01083 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:1] | passed | 0.00563 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:2:1] | passed | 0.00396 seconds |
-./spec/turbo_router/controllers/helper_test_controller_spec.rb[1:1:1:1]  | passed | 0.004 seconds   |
-./spec/turbo_router_spec.rb[1:1]                                         | passed | 0.00078 seconds |
+example_id                                                                | status | run_time        |
+------------------------------------------------------------------------- | ------ | --------------- |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:1:1]     | passed | 0.00303 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:1:1] | passed | 0.02706 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:2:1] | passed | 0.00502 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:2:1]   | passed | 0.00208 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:3:1]     | passed | 0.00755 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:1]  | passed | 0.00881 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:2:1]  | passed | 0.00285 seconds |
+./spec/turbo_router/controllers/helper_test_controller_spec.rb[1:1:1:1]   | passed | 0.00462 seconds |
+./spec/turbo_router_spec.rb[1:1]                                          | passed | 0.00118 seconds |

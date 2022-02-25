@@ -1,5 +1,10 @@
 # TurboRouter
 
+TurboRouter is a simple Rails plugin that smooths over some of the complexity and inconsistencies of using turbo-frames. For example, it can be a bit frustrating to understand and predict how turbo enabled links will behave, given the several attribute they can have that can change their behavior, as well as the fact that their location in the context of the DOM can also change how they function. TurboRouter provides a handful of straightforward view helpers that wrap the standard Rails `link_to` helper and set the proper attributes so that each helper generates a link with consistant and predictable behavior, regardless of where it is in the DOM.
+
+Another aspect of turbo_frames that TurboRouter remedies is the fact that you need to wrap the html partials your Rails controllers render back in turbo_frames matching what is in the DOM. Doing this may limit the reusability and flexibility of your templates, and is extra boiler plate code that can easily be abstracted away. TurboRouter does this by rendering your templates with a layout with a dynamic id set to the targeted turbo-frame of the request, so the partials always render with the right turbo_frame wrapper.
+
+
 This gem is a simple Rails plugin that provides a straight forward pattern and implementation for using turbo_frame navigation in your rails app to provide a seemless SPA (Single Page Application) like experience. With TurboRouter, you can easily take advantage of the latest and greatest that Rails 7 has to offer with almost no overhead.
 
 TurboRouter works by putting a designated turbo_frame in your application layout which will be the target of all navigations where you want to change the main contents of the page. Then, TurboRouter dynamically wraps your view templates with the proper layouts for these navigations, whether they are internal turbo_frame navigations or coming from outside your app, so they are rendered appropriately every time.
