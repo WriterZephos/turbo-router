@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class TurboRouterGenerator < Rails::Generators::Base
-  source_root File.expand_path('templates', __dir__)
+  source_root File.expand_path("templates", __dir__)
 
   desc "This generator copies the required templates along with helpful view helpers into your app."
   def copy_turbo_router_content_partial

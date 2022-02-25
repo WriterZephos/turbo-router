@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "active_support"
 
 module TurboRouter
@@ -5,12 +7,13 @@ module TurboRouter
     extend ActiveSupport::Concern
 
     included do
-      layout -> do
-        turbo_router_content? ? "layouts/turbo_router_content" : self.class.page_layout
-      end
+      layout lambda {
+        turbo_frame_request? ? "layouts/turbo_router_content" : self.class.page_layout
+      }
 
       before_action :set_turbo_frame_request_variant
       helper_method :turbo_router_frame_options
+      helper_method :turbo_router_frame_id_for_request
     end
 
     class_methods do
@@ -19,55 +22,18 @@ module TurboRouter
         @page_layout = layout if layout.present?
         @page_layout
       end
-
-      def default_redirect_path(default_redirect_path = nil)
-        @default_redirect_path ||= try(:root_path) || "/"
-        @default_redirect_path = default_redirect_path if default_redirect_path.present?
-        @default_redirect_path
-      end
     end
 
-    def turbo_router(template = params[:action], **options)
-      @turbo_router_advance = true
-      respond_to do |format|
-        format.html do |html|
-          html.turbo_frame do
-            @turbo_router = true
-            render template, **options
-          end
-          html.page do
-            render template, **options
-          end
-        end
-      end
-    end
-
-    def turbo_render(template = params[:action], **options)
-      @turbo_router = true
-      redirect_path = options[:redirect_path] || self.class.default_redirect_path || root_path
-      respond_to do |format|
-        format.html do |html|
-          html.turbo_frame do
-            render template, **options
-          end
-          html.page do
-            redirect_to redirect_path
-          end
-        end
-      end
-    end
-
-    def turbo_router_stream(template, **options)
-      @turbo_router = true
-      render turbo_stream: turbo_stream.replace(:turbo_router_content, template: "layouts/turbo_router_stream", template: template, locals: options )
+    def turbo_router_stream(template, id = :turbo_router_content, **options)
+      render turbo_stream: turbo_stream.replace(id, template: template, locals: options)
     end
 
     def turbo_router_frame_options
-      @turbo_router_advance ? { turbo_action: "advance" } : {}
+      @turbo_router_advance ? { turbo_action: "advance", target: request.headers["Turbo-frame"] } : {}
     end
 
-    def turbo_router_content?
-      turbo_frame_request? && @turbo_router
+    def turbo_router_frame_id_for_request
+      request.headers["Turbo-frame"].present? ? request.headers["Turbo-frame"] : "turbo_router_content"
     end
 
     private
@@ -78,10 +44,6 @@ module TurboRouter
                         else
                           :page
                         end
-    end
-
-    def render_page_content(template = params[:action], options = {})
-      render template, options.merge(layout: self.class.page_layout)
     end
   end
 end

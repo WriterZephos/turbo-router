@@ -1,43 +1,26 @@
+# frozen_string_literal: true
+
 class CustomTestController < ApplicationController
   include TurboRouter::Controller
 
   page_layout "custom_page_layout"
-  default_redirect_path "/test_redirect"
 
-  def test_turbo_router
-    turbo_router
-  end
+  def test; end
 
-  def test_turbo_router_with_options
-    turbo_router foo: "bar"
-  end
-
-  def test_turbo_router_with_template
-    turbo_router "test_turbo_router"
-  end
-
-  def test_turbo_render
-    turbo_render
-  end
-
-  def test_turbo_render_with_options
-    turbo_render foo: "bar"
-  end
-
-  def test_turbo_render_with_template
-    turbo_render "test_turbo_render"
-  end
-
-  def test_redirect
-    # Reusing existing template
-    turbo_router "test_turbo_router"
-  end
-
-  def test_turbo_router_stream
+  def turbo_stream_test
     respond_to do |format|
       format.turbo_stream do
         # Reusing existing template
-        turbo_router_stream "custom_test/test_turbo_router_stream", foo: "bar"
+        turbo_router_stream "custom_test/test"
+      end
+    end
+  end
+
+  def turbo_stream_test_with_id
+    respond_to do |format|
+      format.turbo_stream do
+        # Reusing existing template
+        turbo_router_stream "custom_test/test", "some_id"
       end
     end
   end

@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 require_relative "../spec/dummy/config/environment"
-require 'bundler/setup'
+require "bundler/setup"
 Bundler.setup
 
-require 'action_controller/railtie'
-require 'rspec/rails'
+require "action_controller/railtie"
+require "rspec/rails"
 require "turbo_router"
 require "pry"
 
