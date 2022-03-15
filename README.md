@@ -1,6 +1,6 @@
 # TurboRouter
 
-TurboRouter is a simple Rails plugin that smooths over some of the complexity and inconsistencies of using turbo-frames. For example, it can be a bit frustrating to understand or predict how turbo enabled links will behave, especiallyy when you are just learning how to use them. This is because they can have several different attributes that can change their behavior, and their location in the context of the DOM can also change what they do.
+TurboRouter is a simple Rails plugin that smooths over some of the complexity and inconsistencies of using turbo-frames. For example, it can be a bit frustrating to understand or predict how turbo enabled links will behave, especially when you are just learning how to use them. This is because they can have several different attributes that can change their behavior, and their location in the context of the DOM can also change what they do.
 
 To make things just a little easier, TurboRouter provides a handfull of straightforward view helpers that wrap the standard Rails `link_to` helper and set the proper attributes on the links they generate so they will have a consistant and predictable behavior, regardless of where they are in the DOM and without the need to set different attributes. They also make it more straightforward to know when the browser's history will be advanced, and when it will not be.
 
