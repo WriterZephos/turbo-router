@@ -24,7 +24,7 @@ The above tables may not look that different, and they are not. This plugin simp
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "turbo_router"
+gem "turbo-router"
 ```
 
 And then execute:
